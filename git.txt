@@ -2,5 +2,8 @@ cd path
 cd ..
 git init 
 git status 
-git add xyz.xyx
+git add xyz.xyx #add to staging area
 git rm --cached xyz.xyz
+git .add #add every file to staging area
+git log #logs on file changes
+git log --oneline #condensed logs on                 file changes
