@@ -1,0 +1,6 @@
+cd path
+cd ..
+git init 
+git status 
+git add xyz.xyx
+git rm --cached xyz.xyz
