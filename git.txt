@@ -6,4 +6,10 @@ git add xyz.xyx #add to staging area
 git rm --cached xyz.xyz
 git .add #add every file to staging area
 git log #logs on file changes
-git log --oneline #condensed logs on                 file changes
+git log --oneline #condensed logs on file changes
+git checkout <log code>#Readonly timetravel repo
+git checkout master #back to normal
+git reset <log code> #reset to specific timeline
+git reset <log code> --soft  #reset to staging area
+git reset <log code> --mixed #reset to working area
+git reset <log code> --hard  #permanent delete to that log timeline					
